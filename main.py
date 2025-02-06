@@ -2,7 +2,7 @@ import subprocess
 import sys
 import get_pip
 import os
-
+from startScreen import startScreen 
 def install(package):
     subprocess.call([sys.executable, "-m", "pip", "install", package])
 
